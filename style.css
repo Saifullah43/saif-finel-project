@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.logo {
+    margin: 20px;
+    font-size: 40px;
+    font-weight:     bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px 400px;
+   
+}
+.child{
+    margin: 10px;
+
+}
+.name input{
+    height: 40px;
+    border-radius: 5px;
+    
+    width: 90%;
+    margin: 10px;
+    text-align: start;
+    padding-left: 10px;
+}
+.password input{
+    height: 40px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px;
+    text-align: start;
+    padding-left: 10px;
+}
+.tn2 a{
+    text-decoration: none;
+    
+}
+.child a{
+    margin: 10px;
+}
+.sign button{
+    margin: 10px 0px;
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    background-color:black;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+.sign  button a:hover{
+    transform: scale(3px);
+}
+.sign p{
+    margin-left: 130px;
+}
+
+.tn3 a button{
+    margin: 10px ;
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color:black;
+    border: none;
+    width: 88%;
+    cursor: pointer;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    margin-left: 470px;
+}
+@media screen and (max-width: 760px){
+    .container{
+        margin-left:200px ;
+        
+    }
+    .foot{
+        margin-left: 280px;
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        margin-left:80px ;
+        
+    }
+    .foot{
+        margin-left: 150px;
+    }
+}
